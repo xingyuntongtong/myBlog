@@ -1,0 +1,23 @@
+<%- include ../include/header.html%>
+
+    <form action="/user/reg" method="post">
+        <div class="form-group">
+            <label for="username">用户名</label>
+            <input class="form-control" type="text" name="username" id="username"/>
+        </div>
+        <div class="form-group">
+            <label for="password">密码</label>
+            <input class="form-control" type="password" name="password" id="password"/>
+        </div>
+        <div class="form-group">
+            <label for="repassword">重复密码</label>
+            <input class="form-control" type="password" name="repassword" id="repassword"/>
+        </div>
+        <div class="form-group">
+            <label for="email">邮箱</label>
+            <input class="form-control" type="email" name="email" id="email"/>
+        </div>
+        <button type="submit">提交</button>
+    </form>
+
+<%- include ../include/footer.html%>

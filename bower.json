@@ -1,0 +1,20 @@
+{
+  "name": "201606blog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "xingyuntongtong <623415329@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xingyuntongtong/xingyuntongtong.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
